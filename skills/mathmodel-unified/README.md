@@ -1,5 +1,7 @@
 # MathModel Unified
 
+> 已迁移至独立仓库：[dedehorse/mathmodel-unified](https://github.com/dedehorse/mathmodel-unified)。后续更新以独立仓库为准；此目录保留最初发布版本。
+
 一个可独立安装的 Codex 数学建模 skill。它把读题与建模、可复现求解、数据图与方法图、论文写作、终审交付放在同一入口；咨询或单阶段任务只处理所需范围。
 
 ## 安装
