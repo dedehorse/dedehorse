@@ -155,7 +155,7 @@ class Dedehorse:
 <details>
 <summary><b>AI 工具与工作流</b></summary>
 
-- Codex skills 与数模流程整理：减少重复配置，让过程和结果更容易复核。
+- [MathModel Unified · 数学建模统一工作流](skills/mathmodel-unified/README.md)：公开的 Codex skill，覆盖读题建模、求解出图、论文写作与终审。
 - AI 辅助写作、文档排版与演示材料制作。
 - Agent、MCP 与桌面工具的配置和使用实践。
 
