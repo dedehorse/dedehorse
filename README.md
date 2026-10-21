@@ -29,11 +29,23 @@ class Dedehorse:
 
 从智能车的摄像头、控制环和串口波形出发，边做边学，也记录调试过程和实验边界。
 
+<p align="center">
+  <picture>
+    <source media="(max-width: 600px)" srcset="assets/smart-car-mobile.svg" />
+    <img src="assets/smart-car.svg" width="100%" alt="智能小车带着摄像头沿赛道行驶的循环动画" />
+  </picture>
+</p>
+
 ## 技术与工具 · Tech stack
 
-<p align="center"><picture><source media="(max-width: 600px)" srcset="assets/tech-tiles-mobile.svg" /><img src="assets/tech-tiles.svg" width="100%" alt="C、Python、FPGA、STM32、MATLAB、端侧 AI、Git、优化" /></picture></p>
+<p align="center">
+  <picture>
+    <source media="(max-width: 600px)" srcset="https://skillicons.dev/icons?i=c,python,matlab,git,vscode,arduino,pytorch,opencv&amp;theme=dark&amp;perline=4" />
+    <img src="https://skillicons.dev/icons?i=c,python,matlab,git,vscode,arduino,pytorch,opencv&amp;theme=dark&amp;perline=8" alt="C、Python、MATLAB、Git、VS Code、Arduino、PyTorch 和 OpenCV 的真实图标" />
+  </picture>
+</p>
 
-<p align="center"><sub>常用工具与正在实践的方向</sub></p>
+<p align="center"><sub>C · Python · MATLAB · Git · VS Code · Arduino · PyTorch · OpenCV</sub></p>
 
 ## 钻研中 ing
 
