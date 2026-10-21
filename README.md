@@ -5,11 +5,12 @@
   </picture>
 </p>
 
-<p align="center"><b>中南大学在读本科生 · 嵌入式 / FPGA / 数学建模</b></p>
+<p align="center"><b>中南大学在读本科生 · 智能车 / 嵌入式控制 / AI / 数学建模 / FPGA</b></p>
 <p align="center"><picture><source media="(max-width: 600px)" srcset="assets/typing-mobile.svg" /><img src="assets/typing.svg" width="85%" alt="Build. Model. Debug. Repeat." /></picture></p>
 
 <p align="center">
   <a href="#关于我--about-me">关于我</a> ·
+  <a href="#智能车--smart-car">智能车</a> ·
   <a href="#钻研中-ing">钻研中 ing</a> ·
   <a href="#公开项目">公开项目</a> ·
   <a href="#数模档案">数模档案</a> ·
@@ -21,8 +22,8 @@
 ```python
 class Dedehorse:
     location = "中南大学"
-    interests = ["嵌入式", "FPGA", "数学建模", "端侧 AI"]
-    building = ["器材核对系统", "节奏可视学习屏"]
+    interests = ["智能车", "嵌入式控制", "计算机视觉", "数学建模", "FPGA"]
+    building = ["智能车识别与控制优化", "乳腺超声影像分析"]
     workflow = "建模 → 实现 → 调试 → 验证"
     motto = "把想法做成能运行的东西"
 ```
@@ -49,28 +50,40 @@ class Dedehorse:
 
 <p align="center"><sub>C · Python · MATLAB · Git · VS Code · Arduino · PyTorch · OpenCV</sub></p>
 
+## 智能车 · Smart car
+
+我围绕第 21 届智能车竞赛做 TC387 车模工程，把摄像头赛道识别、方向与速度控制、无线遥测及 VOFA+ 在线调参连成一个闭环。公开仓库保留比赛使用的工程和三串级控制实验分支；后者还需要完整的实车验证。
+
+**接下来**：检查新车模的编码器反馈，继续优化赛道识别与控制参数，用波形和低速实车测试记录每次调整。
+
 ## 钻研中 ing
 
-> 实验台还亮着，下面是近期正在推进的项目。
+> 近期主要在做智能车迭代和乳腺超声影像分析项目的结果与文档复核；其他硬件想法也继续在实验台上推进。
 
 <table>
 <tr>
 <td width="50%" valign="top">
-<p><sub>01 / FPGA · 进行中</sub></p>
-<p><b>器材核对系统</b></p>
-<p>正式工程整理与相机冻结实验。</p>
-<p><b>下一步</b><br />多槽图像冻结、分类和异常图音反馈；完成实板与时序验证。</p>
+<p><sub>01 / 智能车 · 持续优化</sub></p>
+<p><b>赛道识别与控制调试</b></p>
+<p>基于 TC387 智能车现有工程，梳理摄像头识别、方向与速度环，以及 VOFA+ 的调参记录。</p>
+<p><b>下一步</b><br />核对新车模编码器反馈，逐项调整识别与控制参数；通过波形和低速实车测试验证效果。</p>
 </td>
 <td width="50%" valign="top">
-<p><sub>02 / FPGA · 进行中</sub></p>
-<p><b>节奏可视学习屏</b></p>
-<p>面向听障学生的节拍练习原型。</p>
-<p><b>下一步</b><br />验证 HDMI 画面与音频、跟拍反馈和延迟校准。</p>
+<p><sub>02 / 计算机视觉 · 项目整理中</sub></p>
+<p><b>乳腺超声影像分析</b></p>
+<p>在 ModelArts / MindSpore 上完成乳腺超声图像分类、病灶框检测与轮廓分割的实验和结果分析。</p>
+<p><b>下一步</b><br />核对三项指标与平台证据，整理误差案例和实验报告；如实写明模型局限。</p>
+</td>
+</tr>
+<tr>
+<td colspan="2" valign="top">
+<p><sub>03 / FPGA · 原型推进中</sub></p>
+<p><b>器材核对系统 / 节奏可视学习屏</b></p>
+<p>前者探索相机画面冻结、多槽分类与异常反馈；后者面向听障学生，尝试把节拍练习做成可视画面和声音反馈。</p>
+<p><b>下一步</b><br />继续核对实板时序、HDMI 画面与音频链路，按验证结果推进集成。</p>
 </td>
 </tr>
 </table>
-
-<sub>本地开发中 · 记录每一次上板、调试和功能迭代。</sub>
 
 ## 公开项目
 
@@ -79,13 +92,13 @@ class Dedehorse:
 <td width="50%" valign="top">
 <a href="https://github.com/dedehorse/21th-smart-car-vofa"><img src="assets/vofa.svg" width="100%" alt="智能车 VOFA+ 遥测与调参项目" /></a>
 <p><b>智能车 · VOFA+ 调试与控制</b></p>
-<p>基于 TC387 的智能车工程，围绕赛道感知、方向与速度控制、无线遥测和在线调参展开。</p>
+<p>第 21 届智能车比赛工程：TC387 + 摄像头识别赛道，以方向环和速度环控制车辆，并通过 VOFA+ 观察波形、在线调参。</p>
 <p><a href="https://github.com/dedehorse/21th-smart-car-vofa">查看代码与说明 →</a></p>
 </td>
 <td width="50%" valign="top">
 <a href="https://github.com/dedehorse/21th-smart-car-three-cascade-loop"><img src="assets/cascade.svg" width="100%" alt="智能车三串级控制实验项目" /></a>
 <p><b>智能车 · 三串级控制实验</b></p>
-<p>探索方向 / 角度、角速度与速度环的分层控制，配套图像处理和调试输出。实验版本，实车验证尚不完整。</p>
+<p>方向 / 角度、角速度与左右轮速度的分层控制实验，配套图像处理和调试输出。与比赛工程分开保存，完整实车验证仍待完成。</p>
 <p><a href="https://github.com/dedehorse/21th-smart-car-three-cascade-loop">查看代码与说明 →</a></p>
 </td>
 </tr>
