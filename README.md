@@ -6,7 +6,7 @@
 </p>
 
 <p align="center"><b>中南大学在读研究生 · 嵌入式 / FPGA / 数学建模</b></p>
-<p align="center"><img src="assets/typing.svg" width="85%" alt="Build. Model. Debug. Repeat." /></p>
+<p align="center"><picture><source media="(max-width: 600px)" srcset="assets/typing-mobile.svg" /><img src="assets/typing.svg" width="85%" alt="Build. Model. Debug. Repeat." /></picture></p>
 
 <p align="center">
   <a href="#关于我--about-me">关于我</a> ·
