@@ -42,7 +42,7 @@ class Dedehorse:
 
 <p align="center">
   <picture>
-    <source media="(max-width: 600px)" srcset="https://skillicons.dev/icons?i=c,python,matlab,git,vscode,arduino,pytorch,opencv&amp;theme=dark&amp;perline=4" />
+    <source media="(max-width: 600px)" srcset="https://skillicons.dev/icons?i=c%2Cpython%2Cmatlab%2Cgit%2Cvscode%2Carduino%2Cpytorch%2Copencv&amp;theme=dark&amp;perline=4" />
     <img src="https://skillicons.dev/icons?i=c,python,matlab,git,vscode,arduino,pytorch,opencv&amp;theme=dark&amp;perline=8" alt="C、Python、MATLAB、Git、VS Code、Arduino、PyTorch 和 OpenCV 的真实图标" />
   </picture>
 </p>
