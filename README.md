@@ -31,8 +31,10 @@ class Dedehorse:
 
 <p align="center">
   <picture>
-    <source media="(max-width: 600px)" srcset="assets/smart-car-mobile.svg" />
-    <img src="assets/smart-car.svg" width="100%" alt="智能小车带着摄像头沿赛道行驶的循环动画" />
+    <source media="(prefers-reduced-motion: reduce) and (max-width: 600px)" srcset="assets/smart-car-mobile-static.png" />
+    <source media="(prefers-reduced-motion: reduce)" srcset="assets/smart-car-static.png" />
+    <source media="(max-width: 600px)" srcset="assets/smart-car-mobile.gif" />
+    <img src="assets/smart-car.gif" width="100%" alt="智能小车带着摄像头沿赛道行驶的循环动画" />
   </picture>
 </p>
 
