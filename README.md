@@ -5,21 +5,35 @@
   </picture>
 </p>
 
+<p align="center"><b>中南大学在读研究生 · 嵌入式 / FPGA / 数学建模</b></p>
+<p align="center"><img src="assets/typing.svg" width="85%" alt="Build. Model. Debug. Repeat." /></p>
+
 <p align="center">
-  <a href="#关于我">关于我</a> ·
+  <a href="#关于我--about-me">关于我</a> ·
   <a href="#钻研中-ing">钻研中 ing</a> ·
   <a href="#公开项目">公开项目</a> ·
   <a href="#数模档案">数模档案</a> ·
   <a href="#实验与学习">实验与学习</a>
 </p>
 
-## 关于我
+## 关于我 · About me
 
-Hi，我是 **dedehorse**，中南大学在读研究生。喜欢把问题写成模型，把想法做成能运行的东西。
+```python
+class Dedehorse:
+    location = "中南大学"
+    interests = ["嵌入式", "FPGA", "数学建模", "端侧 AI"]
+    building = ["器材核对系统", "节奏可视学习屏"]
+    workflow = "建模 → 实现 → 调试 → 验证"
+    motto = "把想法做成能运行的东西"
+```
 
-从智能车的摄像头、控制环和串口波形，到 FPGA、端侧 AI 与数学建模，边做边学，也把调试过程和实验边界记录下来。
+从智能车的摄像头、控制环和串口波形出发，边做边学，也记录调试过程和实验边界。
 
-<p><img src="assets/toolbox.svg" width="100%" alt="C / 嵌入式、Python、FPGA / Verilog、控制、优化" /></p>
+## 技术与工具 · Tech stack
+
+<p align="center"><picture><source media="(max-width: 600px)" srcset="assets/tech-tiles-mobile.svg" /><img src="assets/tech-tiles.svg" width="100%" alt="C、Python、FPGA、STM32、MATLAB、端侧 AI、Git、优化" /></picture></p>
+
+<p align="center"><sub>常用工具与正在实践的方向</sub></p>
 
 ## 钻研中 ing
 
@@ -67,6 +81,9 @@ Hi，我是 **dedehorse**，中南大学在读研究生。喜欢把问题写成�
 
 从题目拆解、数据处理、模型求解，到图表、论文和结果复核，整理成可追溯的项目过程。
 
+<details>
+<summary><b>展开 4 项数模项目与工作流</b></summary>
+
 | 项目 | 做过的内容 | 资料状态 |
 | :--- | :--- | :--- |
 | **电池退化与寿命预测** · 2026 策联杯 A 题 | 数据审计、SOH 短期预测、寿命外推与不确定性分析、充电策略多目标优化 | 本地有代码、图表与论文 |
@@ -76,9 +93,11 @@ Hi，我是 **dedehorse**，中南大学在读研究生。喜欢把问题写成�
 
 目前展示项目简介，代码、图表与论文材料在本地整理。
 
+</details>
+
 ## 实验与学习
 
-<details open>
+<details>
 <summary><b>嵌入式、FPGA 与端侧 AI</b></summary>
 
 | 项目 | 实践内容 | 状态 |
@@ -115,6 +134,17 @@ Hi，我是 **dedehorse**，中南大学在读研究生。喜欢把问题写成�
 
 </details>
 
+## GitHub 动态 · Activity
+
+<p align="center">
+  <a href="https://github.com/dedehorse?tab=repositories"><img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=dedehorse&amp;theme=tokyonight" width="100%" alt="dedehorse 的 GitHub 公开贡献趋势与仓库概况" /></a>
+</p>
+
+<p align="center"><sub>公开仓库活动自动更新；本地数模与硬件实验不计入 GitHub 贡献。</sub></p>
+
+
 ---
 
 <p align="center"><sub>Code, circuits & curiosity. · 认真记录每一个跑起来的小东西。</sub></p>
+
+<p align="center"><img src="assets/footer.svg" width="100%" alt="" /></p>
