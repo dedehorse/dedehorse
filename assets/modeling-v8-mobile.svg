@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="192" viewBox="0 0 640 192">
+<title>MathModel Unified</title><defs><linearGradient id="bg"><stop stop-color="#18243e"/><stop offset="1" stop-color="#27203f"/></linearGradient><linearGradient id="line"><stop stop-color="#ffca78"/><stop offset="1" stop-color="#ff8db3"/></linearGradient></defs>
+<rect width="640" height="192" rx="16" fill="url(#bg)"/><rect width="640" height="5" fill="url(#line)"/>
+<text x="30" y="45" font-family="Consolas,monospace" font-size="17" letter-spacing="2" fill="#ffca78">02 / MODELING + AI</text>
+<text x="30" y="105" font-family="Consolas,monospace" font-size="42" font-weight="700" fill="#fff8ed">MathModel Unified</text>
+<text x="32" y="156" font-family="Consolas,monospace" font-size="19" fill="#d5d9fa">MODEL / SOLVE / VERIFY</text><path d="M509 144V68h80M524 131l20-25 20 8 28-38" fill="none" stroke="#ffca78" stroke-width="4"/><circle cx="544" cy="106" r="5" fill="#ff8db3"/><circle cx="564" cy="114" r="5" fill="#ff8db3"/></svg>

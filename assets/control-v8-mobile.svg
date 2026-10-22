@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="192" viewBox="0 0 640 192">
+<title>Cascade Control</title><defs><linearGradient id="bg"><stop stop-color="#18243e"/><stop offset="1" stop-color="#27203f"/></linearGradient><linearGradient id="line"><stop stop-color="#b892ff"/><stop offset="1" stop-color="#72b8ff"/></linearGradient></defs>
+<rect width="640" height="192" rx="16" fill="url(#bg)"/><rect width="640" height="5" fill="url(#line)"/>
+<text x="30" y="45" font-family="Consolas,monospace" font-size="17" letter-spacing="2" fill="#b892ff">03 / CONTROL LAB</text>
+<text x="30" y="105" font-family="Consolas,monospace" font-size="42" font-weight="700" fill="#fff8ed">Cascade Control</text>
+<text x="32" y="156" font-family="Consolas,monospace" font-size="19" fill="#d5d9fa">ANGLE / GYRO / SPEED</text><rect x="496" y="73" width="34" height="34" rx="6" fill="#282949" stroke="#b892ff" stroke-width="2"/><rect x="529" y="93" width="34" height="34" rx="6" fill="#282949" stroke="#b892ff" stroke-width="2"/><rect x="562" y="113" width="34" height="34" rx="6" fill="#282949" stroke="#b892ff" stroke-width="2"/></svg>
